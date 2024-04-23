@@ -47,6 +47,7 @@ student1.enroll('Course D');
 student1.enroll('Course E');
 student1.displayCourses();
 student1.dropCourses('Course D');
+student1.dropCourses('Course B');
 student1.dropCourses('lol');
 student1.displayCourses();
 

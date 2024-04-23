@@ -15,7 +15,7 @@ class Book {
         console.log(`${this.title}, ${this.author}, ${this.year}`);
     }
 
-    get isRecent() {
+    isRecent() {
         return this.year > 2014 && this.year <= 2024;
     }
 
@@ -27,5 +27,5 @@ class Book {
 const book1 = new Book('Not A Book', 'That Author', 2024);
 
 book1.printDetails();
-console.log(book1.isRecent);
+console.log(book1.isRecent());
 console.log(book1.isByAuthor("That Author"));
